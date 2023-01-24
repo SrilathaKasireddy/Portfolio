@@ -334,7 +334,7 @@ body {
       display: contents; } }
 
 .about {
-  background-color: #F6F6F6;
+  background-color:white;
   padding: 2em;
   height: 100vh;
   padding-top: 3em; }
@@ -356,7 +356,7 @@ body {
         
   
 .education {
-  background-color: #F6F6F6;
+  background-color: white;
   padding-top: 5rem; }
 
   .projects {
@@ -374,6 +374,32 @@ body {
       width: 100%;
       text-align: center; } }
 
+      .grid-container{
+      display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+
+}
+
+
+
+  
+.grid-item {
+  /* background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8); */
+  display: grid;
+
+  /* grid-template-columns: auto auto auto; */
+  text-align: center;
+  align-items:center;
+  font-size:10px;
+  width: 350px;
+  margin-left: 10%;
+  margin: 2%;
+  padding: 1%;
+  border: 1px solid rgb(195, 192, 192);
+  box-shadow: 2px 5px 5px gray
+  ;}
 .content-list {
   padding: 2rem 4rem;
   line-height: 1.7;
@@ -466,17 +492,11 @@ body {
   height: 450px;
   padding: 1%;
   margin: 2%;
-  float:left;
-  
-  
-  
- 
+  /* float:left; */
+  display: flex;
+  flex-wrap: wrap;
   
 }
-
-
- 
-  
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -485,9 +505,6 @@ body {
 
 .cardcontainer{
   padding: 10px 16px;
-
-  
- 
 }
     
       
@@ -496,12 +513,14 @@ body {
   flex-direction: column;
   justify-content: center;
   gap: 5rem;
+  margin-top: 10%;
 }
 .skillsdiv {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10%;
 
   gap: 1rem;
   flex-wrap: wrap;
@@ -514,14 +533,9 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 1%;
+  margin-top: 10%;
 }
 
 
-.skillLogo:hover {
- 
-  transform: rotate(360deg);
-  -webkit-transition-duration: 1s;
-  
-  transition-duration: 1s;
-}
+
 
