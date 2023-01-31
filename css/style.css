@@ -72,6 +72,11 @@ html {
     opacity: 0;
     visibility: hidden; } }
 
+
+    #heading{
+      text-align: center;
+    }
+
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -419,9 +424,10 @@ body {
   margin-bottom: 7rem;
   
  }
- #containerstack{
-  margin: 10%;
+ .ProjecTitle{
+  margin-top:10px
  }
+ 
   .core-skills-item {
     background-color: #F6F6F6;
     box-shadow: -12px -12px 25px white, 12px 12px 25px rgba(165, 181, 248, 0.4);
